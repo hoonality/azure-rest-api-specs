@@ -6,6 +6,7 @@
     "subscriptionId": "subid",
     "apiId": "testapi",
     "resolverId": "testResolver",
+    "policyId": "policy",
     "If-Match": "*"
   },
   "responses": {
