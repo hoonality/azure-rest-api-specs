@@ -5700,9 +5700,23 @@
     },
     "ResolverUpdateContractProperties": {
       "properties": {
-        "x-ms-client-flatten": true,
-        "$ref": "#/definitions/ResolverEntityBaseContract",
-        "description": "Properties of the Resolver Contract."
+        "displayName": {
+          "type": "string",
+          "description": "Resolver Name.",
+          "minLength": 1,
+          "maxLength": 300
+        },
+        "path": {
+          "type": "string",
+          "description": "Path is type/field being resolved.",
+          "minLength": 1,
+          "maxLength": 300
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the resolver. May include HTML formatting tags.",
+          "maxLength": 1000
+        }
       },
       "description": "Resolver Update Contract Properties."
     },
