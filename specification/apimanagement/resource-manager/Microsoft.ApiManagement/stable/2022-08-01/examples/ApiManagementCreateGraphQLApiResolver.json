@@ -38,11 +38,6 @@
           "description": "A GraphQL Resolver example"
         }
       }
-    },
-    "202": {
-      "headers": {
-        "location": "https://management.azure.com/subscriptions/subid/resourcegroups/rg1/providers/Microsoft.ApiManagement/service/apimService1/apis/someAPI/resolvers/newResolver?api-version=2021-12-01-preview&asyncId=5c730e343244df1b9cb56e85&asyncCode=201"
-      }
     }
   }
 }
